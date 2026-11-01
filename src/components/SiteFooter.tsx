@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="container footer-inner">
         <div>
           <Link href="/" className="brand small" aria-label="Home">
-            JD
+            SB
           </Link>
         </div>
         <nav aria-label="Footer navigation" className="footer-nav">
@@ -14,10 +14,10 @@ export function SiteFooter() {
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/stilqnbliznashki" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        <p>© {new Date().getFullYear()} Jordan Doe</p>
+        <p>© {new Date().getFullYear()} Stilqn Bliznashki</p>
       </div>
     </footer>
   );

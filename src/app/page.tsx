@@ -102,8 +102,7 @@ export default async function HomePage() {
         <p className="eyebrow">Contact</p>
         <h2>Let’s build something useful.</h2>
         <div className="contact-actions">
-          <a href="mailto:hello@example.com" className="button primary">hello@example.com</a>
-          <Link href="/contact" className="button secondary">More ways to reach me</Link>
+          <Link href="/contact" className="button secondary">Ways to reach me</Link>
         </div>
       </section>
 

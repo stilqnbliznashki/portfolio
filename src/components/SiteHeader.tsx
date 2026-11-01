@@ -4,7 +4,7 @@ export function SiteHeader() {
   return (
     <header className="topbar container">
       <Link href="/" className="brand" aria-label="Home">
-        JD
+        SB
       </Link>
       <nav aria-label="Primary navigation" className="nav">
         <Link href="/">Home</Link>

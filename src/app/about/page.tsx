@@ -64,7 +64,9 @@ export default function AboutPage() {
 
       <section className="container section about-cta">
         <h2>Interested in working together?</h2>
-        <a href="mailto:hello@example.com" className="button primary">hello@example.com</a>
+      </section>
+      <section className="container section about-cta">
+        <a href="/contact" className="button primary">Get in touch</a>
       </section>
 
       <SiteFooter />
