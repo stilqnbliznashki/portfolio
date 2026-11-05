@@ -1,5 +1,6 @@
 node_modules
 .next
+.next-export
 out
 npm-debug.log*
 .DS_Store
@@ -14,5 +15,14 @@ npm-debug.log*
 *.backup
 .env
 .env.*
+!.env.example
 /srv/data/
 /srv/backups/
+*.db-journal
+*.sqlite-journal
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519

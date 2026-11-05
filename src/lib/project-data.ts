@@ -1,5 +1,5 @@
-import { getDatabase } from '@/lib/db';
-import { seedProjects } from '@/lib/project-seed';
+import { getDatabase } from './db';
+import { seedProjects } from './project-seed';
 
 export type ProjectStatus = 'In Progress' | 'Completed' | 'Exploration' | 'Archived';
 

@@ -1,0 +1,444 @@
+[
+  {
+    "id": 1,
+    "slug": "cognita",
+    "name": "Cognita",
+    "shortSummary": "An educational software ecosystem exploring connected learning tools, educational resources, and school-focused digital workflows.",
+    "description": "Cognita is an educational software project focused on bringing learning resources and digital tools into a more cohesive environment. The broader concept includes lessons, learning materials, sandboxes, and tools for teachers to manage educational content.",
+    "category": "EdTech / Software Platform",
+    "status": "In Progress",
+    "period": "May 2026 — Present",
+    "featured": true,
+    "technologies": [
+      "Next.js",
+      "TypeScript"
+    ],
+    "links": [
+      {
+        "label": "OS Module",
+        "href": "./cognita-os"
+      }
+    ],
+    "overview": [
+      "An educational software ecosystem focused on connecting learning resources and digital tools.",
+      "Explores lessons, learning materials, sandboxes, and teacher-oriented content management.",
+      "Uses a modular approach to separate learning content from supporting educational tools.",
+      "Long-term direction includes integrated learning environments and structured digital workflows.",
+      "The overall platform remains under development, with planned capabilities distinguished from implemented functionality."
+    ],
+    "problem": [
+      "Educational resources can be fragmented across separate tools and platforms",
+      "Learning materials need to remain associated with the lessons they support",
+      "Teachers need practical ways to organize and maintain digital learning content"
+    ],
+    "features": [
+      "Modular educational platform concept",
+      "Lesson and learning-material organization",
+      "Learning environments and sandbox module concept",
+      "Teacher-oriented lesson editing concept"
+    ],
+    "stack": [
+      "Web technologies",
+      "Additional framework and database choices depend on the specific module"
+    ],
+    "architecture": [
+      "Modular educational platform",
+      "Separate learning-content and teacher-facing workflows",
+      "Potential integration with dedicated learning environments"
+    ],
+    "challenges": [
+      "Defining clear boundaries between platform modules",
+      "Keeping lesson content and supporting materials connected",
+      "Distinguishing platform-wide functionality from module-specific functionality"
+    ],
+    "lessons": [
+      "Large educational platforms benefit from modular design",
+      "Content organization is a core part of the user experience",
+      "Product scope should be defined before individual modules are expanded"
+    ],
+    "limitations": [
+      "The broader platform concept is not a fully implemented production system",
+      "Some modules remain planned or exploratory",
+      "Deployment, integrations, and feature completeness vary by component"
+    ],
+    "future": [
+      "Develop the lesson and materials workflows",
+      "Implement teacher-facing lesson editing",
+      "Develop learning environments and sandbox integration",
+      "Define authentication, authorization, and platform-wide data management"
+    ],
+    "published": true,
+    "createdAt": "2026-10-13 11:01:18",
+    "updatedAt": "2026-10-13 11:01:18"
+  },
+  {
+    "id": 2,
+    "slug": "cognita-os",
+    "name": "Cognita-os",
+    "shortSummary": "A Linux-based desktop shell concept for educational environments, built with C++20 and Qt 6.",
+    "description": "Cognita OS is a custom Linux desktop shell project designed around the needs of educational environments. Rather than developing a new operating-system kernel, the project explores building a dedicated graphical environment on top of Linux, using Qt 6 and the Mir/Wayland ecosystem.",
+    "category": "Systems Engineering",
+    "status": "In Progress",
+    "period": "July 2026 — Present",
+    "featured": true,
+    "technologies": [
+      "C++20",
+      "CMake",
+      "Mir",
+      "Qt 6",
+      "Ubuntu",
+      "Wayland"
+    ],
+    "links": [
+      {
+        "label": "Cognita Project",
+        "href": "./cognita"
+      }
+    ],
+    "overview": [
+      "A custom Linux desktop shell designed around the needs of educational environments.",
+      "Built on Linux rather than developing a new operating-system kernel.",
+      "Uses C++20, Qt 6, and CMake for its application and build foundation.",
+      "Explores the Mir and Wayland graphical ecosystem.",
+      "Current work focuses on the shell foundation, configuration, logging, and graphics integration.",
+      "The complete desktop experience remains a future development goal."
+    ],
+    "problem": [
+      "General-purpose desktop environments may not match the requirements of a controlled school computing environment",
+      "A dedicated shell needs a maintainable foundation for future desktop components",
+      "Graphical environments must integrate correctly with Linux display and rendering infrastructure"
+    ],
+    "features": [
+      "Initial Qt-based shell window",
+      "Separate shell application logic",
+      "Configuration component",
+      "Logging component",
+      "CMake-based build system"
+    ],
+    "stack": [
+      "C++20",
+      "Qt 6",
+      "CMake",
+      "Ubuntu 24.04 LTS",
+      "Wayland",
+      "Mir",
+      "Git",
+      "Visual Studio Code",
+      "Hyper-V development environment"
+    ],
+    "architecture": [
+      "Linux-based desktop shell rather than a custom kernel",
+      "ShellApplication separates application logic from the entry point",
+      "Configuration and logging components provide shared infrastructure",
+      "Mir and Wayland are part of the intended graphical-session architecture"
+    ],
+    "challenges": [
+      "Integrating Qt with the Linux graphical stack",
+      "Troubleshooting EGL, OpenGL, and software-rendering issues in a virtual machine",
+      "Establishing a stable build and dependency configuration",
+      "Separating the initial shell foundation from future desktop functionality"
+    ],
+    "lessons": [
+      "A working build does not guarantee a working graphical rendering pipeline",
+      "Graphics problems can originate in the environment and driver stack rather than application code",
+      "Separating application responsibilities makes future shell development easier",
+      "Display-server architecture needs to be understood before adding desktop features"
+    ],
+    "limitations": [
+      "The current implementation is an early shell prototype",
+      "The complete desktop interface is not implemented",
+      "Launcher, panel, notifications, settings, lock screen, and session-management functionality remain planned",
+      "Graphics and rendering issues have affected development"
+    ],
+    "future": [
+      "Resolve the current graphical rendering issues",
+      "Establish a reliable shell session using the intended Mir/Wayland setup",
+      "Implement the desktop panel and application launcher",
+      "Add settings, notifications, search, and session management",
+      "Explore integration with centralized school infrastructure"
+    ],
+    "published": true,
+    "createdAt": "2026-10-13 11:01:18",
+    "updatedAt": "2026-10-13 11:01:18"
+  },
+  {
+    "id": 3,
+    "slug": "quax-tourism-platform",
+    "name": "Quax — Tourism Platform",
+    "shortSummary": "A collaborative tourism web application prototype built with Next.js, TypeScript, Prisma, and Supabase PostgreSQL.",
+    "description": "Quax is a collaborative web application project focused on tourism and destination discovery. The project uses a modern TypeScript web stack and is scoped around an initial city or country experience rather than attempting to cover every destination at once.",
+    "category": "Full-Stack Web Development",
+    "status": "Completed",
+    "period": "June 2026 — July 2026",
+    "featured": true,
+    "technologies": [
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "Supabase",
+      "TypeScript"
+    ],
+    "links": [
+      {
+        "label": "Repository",
+        "href": "https://github.com/stilqnbliznashki/Quax-Travel"
+      }
+    ],
+    "overview": [
+      "A collaborative tourism web application developed by a two-person team.",
+      "Focuses on destination discovery with an initially limited geographic scope.",
+      "Uses Next.js and TypeScript for the web application.",
+      "Uses Prisma for data access and Supabase PostgreSQL for relational data storage.",
+      "Explores full-stack application design, database modelling, and collaborative development.",
+      "The project is a prototype, with functionality and production readiness dependent on ongoing development."
+    ],
+    "problem": [
+      "Tourism information can be spread across multiple websites and services",
+      "A broad destination platform needs a manageable initial scope",
+      "A collaborative application needs a clear division of implementation responsibilities"
+    ],
+    "features": [
+      "Tourism-focused web application concept",
+      "Initial destination-focused product scope",
+      "TypeScript-based application",
+      "Prisma database access layer",
+      "Supabase PostgreSQL integration"
+    ],
+    "stack": [
+      "TypeScript",
+      "Next.js",
+      "Prisma",
+      "Supabase",
+      "PostgreSQL"
+    ],
+    "architecture": [
+      "Full-stack web application using Next.js",
+      "TypeScript for application code",
+      "Prisma as the database access and data-modeling layer",
+      "Supabase PostgreSQL as the relational database",
+      "Two-person collaborative development"
+    ],
+    "challenges": [
+      "Defining a realistic minimum viable product",
+      "Coordinating changes between two developers",
+      "Maintaining consistency between application data models and the database",
+      "Keeping the initial product scope focused on a limited geographic area"
+    ],
+    "lessons": [
+      "A focused MVP is easier to design and validate than a broad platform",
+      "Clear task ownership helps collaborative development",
+      "Database schemas and application models need to evolve together",
+      "Full-stack projects require coordination between user experience, application logic, and persistence"
+    ],
+    "limitations": [
+      "The project is a prototype rather than a confirmed production service",
+      "The initial geographic scope is limited",
+      "Production readiness, deployment, and feature completeness have not been established"
+    ],
+    "future": [
+      "Complete and validate the initial destination experience",
+      "Refine the database schema and data-management workflows",
+      "Improve responsive design and usability",
+      "Add destinations and related tourism information",
+      "Document deployment and production requirements"
+    ],
+    "published": true,
+    "createdAt": "2026-10-13 11:01:18",
+    "updatedAt": "2026-10-13 11:01:18"
+  },
+  {
+    "id": 4,
+    "slug": "home-lab-ops",
+    "name": "Home Lab OPS",
+    "shortSummary": "A collection of operational tools and self-hosted services for managing and monitoring a personal Linux home lab.",
+    "description": "Home Lab OPS is an ongoing home-lab project focused on operating self-hosted services, managing server infrastructure, and developing tools for monitoring and administration. The environment includes an Ubuntu Server host, Docker-based services, Caddy, network file sharing, and hosted websites.",
+    "category": "Embedded and Electronics",
+    "status": "In Progress",
+    "period": "September 2026 — present",
+    "featured": false,
+    "technologies": [
+      "Caddy",
+      "Cloudflare",
+      "Docker",
+      "Linux",
+      "SSH",
+      "Samba",
+      "Ubuntu Server"
+    ],
+    "links": [
+      {
+        "label": "Backend",
+        "href": "./server-monitor"
+      }
+    ],
+    "overview": [
+      "An operational project focused on managing and maintaining a personal home-lab environment.",
+      "Runs on an Ubuntu Server host with Docker-based services.",
+      "Uses Caddy for reverse proxying and web hosting.",
+      "Includes Samba-based network file sharing and persistent server storage.",
+      "Uses Cloudflare for external access to selected services.",
+      "Includes development of a web-based dashboard for server administration and monitoring.",
+      "The dashboard and future operational capabilities are separate from the infrastructure already running."
+    ],
+    "problem": [
+      "Self-hosted services require reliable configuration and persistent storage",
+      "Operating multiple services through separate tools can complicate administration",
+      "Publicly accessible services need controlled network exposure",
+      "Server administration benefits from a centralized operational overview"
+    ],
+    "features": [
+      "Ubuntu Server-based home lab",
+      "Docker-based service deployment",
+      "Caddy reverse proxy and web hosting",
+      "Hosted personal websites",
+      "Samba network file sharing",
+      "Persistent server storage under /srv",
+      "Cloudflare-based public access for selected services",
+      "Development of a server management dashboard"
+    ],
+    "stack": [
+      "Ubuntu Server 22.04 LTS",
+      "Docker",
+      "Caddy",
+      "Samba",
+      "Cloudflare",
+      "Linux",
+      "SSH",
+      "C# for the related ServerMonitor prototype"
+    ],
+    "architecture": [
+      "Linux host running self-hosted infrastructure",
+      "Docker containers for selected services",
+      "Caddy reverse proxy for web traffic",
+      "Persistent application and service data stored on server storage",
+      "Samba for network file access",
+      "Cloudflare for selected external access paths",
+      "Separate dashboard and monitoring development"
+    ],
+    "challenges": [
+      "Configuring services to persist across restarts",
+      "Managing permissions across Linux users, storage, and network shares",
+      "Troubleshooting public access and tunnel availability",
+      "Maintaining existing websites while making infrastructure changes",
+      "Designing a dashboard without unnecessarily exposing administrative capabilities"
+    ],
+    "lessons": [
+      "Persistent storage and service configuration should be planned together",
+      "Reverse proxies and tunnels serve different roles in external access",
+      "Linux file permissions matter when accessing files through multiple services",
+      "Monitoring and administrative control should be designed as distinct capabilities",
+      "Infrastructure changes should be tested without disrupting running services"
+    ],
+    "limitations": [
+      "The server uses older, resource-constrained hardware",
+      "The management dashboard is not yet a complete operational control plane",
+      "Service-level health checks and systemd status monitoring remain future enhancements",
+      "External access depends on the configuration and availability of the relevant network services",
+      "The infrastructure is a personal home lab, not a production hosting platform with guaranteed availability"
+    ],
+    "future": [
+      "Develop a centralized server dashboard",
+      "Improve visibility into running processes and system resource usage",
+      "Add carefully scoped service health checks and systemd status reporting",
+      "Improve error reporting and operational diagnostics",
+      "Strengthen access controls for administrative functions",
+      "Document deployment, backups, recovery, and maintenance procedures"
+    ],
+    "published": true,
+    "createdAt": "2026-10-13 11:01:18",
+    "updatedAt": "2026-10-13 11:01:18"
+  },
+  {
+    "id": 5,
+    "slug": "server-monitor",
+    "name": "ServerMonitor",
+    "shortSummary": "A C# monitoring prototype that collects Linux system metrics and exposes them as structured data.",
+    "description": "ServerMonitor is a C# and .NET prototype for collecting system information from Linux. Its collectors inspect operating-system metrics such as CPU load, memory, network interfaces, storage, running processes, and host information. The project is intended to provide a foundation for a reusable monitoring component and future server-dashboard integration.",
+    "category": "Systems Programming and Monitoring",
+    "status": "Completed",
+    "period": "September 2026 — Present",
+    "featured": false,
+    "technologies": [
+      ".NET",
+      "C#",
+      "JSON",
+      "System.IO"
+    ],
+    "links": [
+      {
+        "label": "Solution",
+        "href": "./home-lab-ops"
+      }
+    ],
+    "overview": [
+      "A C# and .NET prototype for collecting Linux system metrics.",
+      "Separates collection responsibilities across CPU, memory, network, processes, storage, and system information.",
+      "Uses Linux interfaces such as /proc alongside .NET system APIs.",
+      "Produces structured, machine-readable metrics intended for integration with other tools.",
+      "Explores reusable monitoring components that could support the Home Lab OPS dashboard.",
+      "The current prototype still requires reliability improvements, including storage exception handling and optional sensor detection."
+    ],
+    "problem": [
+      "Linux system metrics are exposed through different interfaces",
+      "Monitoring output needs a consistent structure for consumption by other applications",
+      "Some metrics may require permissions or may not be available on every machine",
+      "A dashboard needs machine-readable data rather than terminal-only output"
+    ],
+    "features": [
+      "CPU load and usage collection",
+      "Memory and swap metrics",
+      "Network interface statistics from /proc/net/dev",
+      "Process information including PID and resource usage",
+      "Storage capacity and utilization collection",
+      "Host, operating system, kernel, architecture, and uptime information",
+      "Structured JSON-oriented metric output"
+    ],
+    "stack": [
+      "C#",
+      ".NET",
+      "Linux",
+      "/proc/net/dev",
+      "Linux /proc filesystem",
+      "System.IO and DriveInfo",
+      "JSON"
+    ],
+    "architecture": [
+      "Separate collectors for CPU, memory, network, processes, storage, and system information",
+      "Collectors gather data from Linux system interfaces and .NET APIs",
+      "Metric results are designed for structured output",
+      "Potential integration with a separate server dashboard"
+    ],
+    "challenges": [
+      "Handling inaccessible storage paths and permission errors",
+      "Supporting systems without available hardware temperature sensors",
+      "Normalizing metrics from different operating-system sources",
+      "Distinguishing missing sensor data from actual system failures",
+      "Preventing a single collector failure from crashing the entire monitoring process"
+    ],
+    "lessons": [
+      "Operating-system metrics can have different availability and permission requirements",
+      "Hardware sensor availability should not be assumed",
+      "Collectors should handle errors independently where practical",
+      "Structured output makes system monitoring easier to integrate into other applications",
+      "A monitoring tool needs explicit handling for missing and invalid measurements"
+    ],
+    "limitations": [
+      "The prototype is not yet a fully reliable monitoring service",
+      "Hardware sensor detection is not working reliably in the current test environment",
+      "Storage collection has encountered an UnauthorizedAccessException",
+      "Metric accuracy and behavior across different Linux distributions require further testing",
+      "A complete dashboard integration is not yet established"
+    ],
+    "future": [
+      "Resolve storage collection permission and exception-handling issues",
+      "Improve optional sensor detection",
+      "Standardize JSON output and missing-value handling",
+      "Test collectors independently and across multiple Linux environments",
+      "Add automated tests for metric parsing and error conditions",
+      "Integrate the collectors with the Home Lab OPS dashboard"
+    ],
+    "published": true,
+    "createdAt": "2026-10-13 11:01:18",
+    "updatedAt": "2026-10-13 11:01:18"
+  }
+]
